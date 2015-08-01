@@ -20,12 +20,10 @@
             }
         ]
     },
-    "sdkVersion": "3",
+    "sdkVersion": "2",
     "shortName": "WatchCraft",
-    "targetPlatforms": [
-        "aplite"
-    ],
     "uuid": "3f6164ab-d82c-406e-a251-72b23a798265",
+    "versionCode": 1,
     "versionLabel": "1.0",
     "watchapp": {
         "watchface": false
