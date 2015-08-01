@@ -1,0 +1,33 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "kenneth.schlatter@gmail.com",
+    "longName": "WatchCraft",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/craft.png",
+                "name": "CRAFT",
+                "type": "png"
+            },
+            {
+                "file": "fonts/Minecraftia.ttf",
+                "name": "MC_FONT_20",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "WatchCraft",
+    "targetPlatforms": [
+        "aplite"
+    ],
+    "uuid": "3f6164ab-d82c-406e-a251-72b23a798265",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
