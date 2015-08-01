@@ -3,8 +3,8 @@
 static MenuLayer *menu_layer;
 static Window *craft_window;
 static GFont craft_font;
-static BitmapLayer *crafting_table;
-static GBitmap *background_bitmap;
+//static BitmapLayer *crafting_table;
+//static GBitmap *background_bitmap;
 //Crafting Table Text Boxes
 TextLayer *a1, *b1, *c1, *a2, *b2, *c2, *a3, *b3, *c3;
 /*
@@ -103,7 +103,18 @@ static void craft_window_load(Window *window) {
 static void craft_window_unload(Window *window) {
 	//bitmap_layer_destroy(crafting_table);
 	fonts_unload_custom_font(craft_font);
-  menu_layer_destroy(menu_layer);
+  	menu_layer_destroy(menu_layer);
+	
+	text_layer_destroy(a1);
+	text_layer_destroy(b1);
+	text_layer_destroy(c1);
+	text_layer_destroy(a2);
+	text_layer_destroy(b2);
+	text_layer_destroy(c2);
+	text_layer_destroy(a3);
+	text_layer_destroy(b3);
+	text_layer_destroy(c3);
+
 }
 
 static void init() {

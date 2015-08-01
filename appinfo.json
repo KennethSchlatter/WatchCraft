@@ -9,21 +9,23 @@
     "resources": {
         "media": [
             {
-                "file": "images/craft.png",
-                "name": "CRAFT",
-                "type": "png"
-            },
-            {
                 "file": "fonts/Minecraftia.ttf",
                 "name": "MC_FONT_20",
                 "type": "font"
+            },
+            {
+                "file": "images/craft.png",
+                "name": "CRAFT",
+                "type": "png"
             }
         ]
     },
-    "sdkVersion": "2",
+    "sdkVersion": "3",
     "shortName": "WatchCraft",
+    "targetPlatforms": [
+        "aplite"
+    ],
     "uuid": "3f6164ab-d82c-406e-a251-72b23a798265",
-    "versionCode": 1,
     "versionLabel": "1.0",
     "watchapp": {
         "watchface": false
