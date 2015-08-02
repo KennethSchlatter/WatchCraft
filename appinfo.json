@@ -1,31 +1,57 @@
 {
-    "appKeys": {},
-    "capabilities": [
-        ""
-    ],
-    "companyName": "kenneth.schlatter@gmail.com",
-    "longName": "WatchCraft",
-    "projectType": "native",
-    "resources": {
-        "media": [
-            {
-                "file": "fonts/Minecraftia.ttf",
-                "name": "MC_FONT_20",
-                "type": "font"
-            },
-            {
-                "file": "images/craft.png",
-                "name": "CRAFT",
-                "type": "png"
-            }
-        ]
-    },
-    "sdkVersion": "2",
-    "shortName": "WatchCraft",
-    "uuid": "3f6164ab-d82c-406e-a251-72b23a798265",
-    "versionCode": 1,
-    "versionLabel": "1.0",
-    "watchapp": {
-        "watchface": false
-    }
+  "sdkVersion": "3",
+  "shortName": "WatchCraft",
+  "uuid": "3f6164ab-d82c-406e-a251-72b23a798265",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "appKeys": {
+    "MESSAGE_TYPE": 200,
+    "section_id": 0,
+    "section_title": 1,
+    "item_name": 2,
+    "simple_table": 3,
+    "advanced_table": 4,
+    "s_t_1": 10,
+    "s_t_2": 11,
+    "s_t_3": 12,
+    "s_t_4": 13,
+    "s_t_5": 14,
+    "s_t_6": 15,
+    "s_t_7": 16,
+    "s_t_8": 17,
+    "s_t_9": 18,
+    "a_t_1": 20,
+    "a_t_2": 21,
+    "a_t_3": 22,
+    "a_t_4": 23,
+    "a_t_5": 24,
+    "a_t_6": 25,
+    "a_t_7": 26,
+    "a_t_8": 27,
+    "a_t_9": 28
+  },
+  "companyName": "Frosted-Torus",
+  "longName": "WatchCraft",
+  "projectType": "native",
+  "resources": {
+    "media": [
+      {
+        "file": "fonts/Minecraftia.ttf",
+        "name": "MC_FONT_20",
+        "type": "font"
+      },
+      {
+        "file": "images/craft.png",
+        "name": "CRAFT",
+        "type": "png"
+      }
+    ]
+  },
+  "watchapp": {
+    "watchface": false
+  },
+  "targetPlatforms": [
+    "aplite",
+    "basalt"
+  ]
 }
