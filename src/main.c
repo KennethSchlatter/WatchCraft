@@ -42,7 +42,6 @@ void draw_row_callback(GContext *ctx, Layer *cell_layer, MenuIndex *cell_index, 
 void process_tuple(Tuple *t){
 	int key = t->key;
 	int value = t->value->int32;
-    APP_LOG(APP_LOG_LEVEL_INFO, "Got key %d with string value %s value %d", key, t->value->cstring, value);
   switch (key) {
 	case 0:
         current_recipe.type = value;
@@ -58,7 +57,7 @@ void process_tuple(Tuple *t){
             strcpy(current_recipe.simple_table[key-10], t->value->cstring);
         }
         else if(key > 19 && key < 30){
-            strcpy(current_recipe.simple_table[key-20], t->value->cstring);
+            strcpy(current_recipe.advanced_table[key-20], t->value->cstring);
         }
         else{
             APP_LOG(APP_LOG_LEVEL_ERROR, "Error: Unrecognized key %d.", key);
