@@ -39,6 +39,27 @@ void draw_row_callback(GContext *ctx, Layer *cell_layer, MenuIndex *cell_index, 
   }
 }
 
+void process_tuple(Tuple *t){
+	int key = t->key;
+	int value = t->value->int32;
+  switch (key) {
+	
+  }
+}
+
+void inbox(DictionaryIterator *iter, void *context){	
+	Tuple *t = dict_read_first(iter);
+	if(t){
+		process_tuple(t);
+	}
+	while(t != NULL){
+		t = dict_read_next(iter);
+		if(t){
+			process_tuple(t);
+		}
+	}
+}
+
 void select_click_callback(MenuLayer *menu_layer, MenuIndex *cell_index, void *callback_context)
 {
   //get which row
@@ -78,6 +99,9 @@ static void init() {
     .load = window_load,
     .unload = window_unload
   });
+	app_message_register_inbox_received(inbox);
+	app_message_open(512, 512);
+	
 	window_stack_push(window, true);
 }
 
