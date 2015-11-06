@@ -28,11 +28,17 @@
     "capabilities": [
         ""
     ],
-    "companyName": "Frosted-Torus",
+    "companyName": "Frosted Torus",
     "longName": "WatchCraft",
     "projectType": "native",
     "resources": {
         "media": [
+            {
+                "file": "images/menu icon dither 2.png",
+                "menuIcon": true,
+                "name": "menu_icon",
+                "type": "png"
+            },
             {
                 "file": "images/craft.png",
                 "name": "CRAFT",
@@ -52,7 +58,7 @@
         "basalt"
     ],
     "uuid": "3f6164ab-d82c-406e-a251-72b23a798265",
-    "versionLabel": "1.0",
+    "versionLabel": "0.2",
     "watchapp": {
         "watchface": false
     }
