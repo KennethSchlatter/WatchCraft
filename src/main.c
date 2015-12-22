@@ -8,7 +8,7 @@ static Window *window;
 Recipe current_recipe;
 
 uint16_t num_rows_callback(MenuLayer *menu_layer, uint16_t section_index, void *callback_context){
-  return 7;
+  return 8;
 }
 
 void draw_row_callback(GContext *ctx, Layer *cell_layer, MenuIndex *cell_index, void *callback_context)
@@ -36,6 +36,9 @@ void draw_row_callback(GContext *ctx, Layer *cell_layer, MenuIndex *cell_index, 
     case 6:
     menu_cell_basic_draw(ctx, cell_layer, "Tools, Weapons & Armor", NULL, NULL);
     break;
+	case 7:
+	menu_cell_basic_draw(ctx, cell_layer, "Snapshot", NULL, NULL);
+	break;
   }
 }
 

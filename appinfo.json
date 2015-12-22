@@ -37,12 +37,12 @@
                 "file": "images/menu icon dither 2.png",
                 "menuIcon": true,
                 "name": "menu_icon",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/craft.png",
                 "name": "CRAFT",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "fonts/Minecraftia.ttf",
@@ -58,7 +58,7 @@
         "basalt"
     ],
     "uuid": "3f6164ab-d82c-406e-a251-72b23a798265",
-    "versionLabel": "0.2",
+    "versionLabel": "1.6",
     "watchapp": {
         "watchface": false
     }

@@ -55,6 +55,8 @@ function get_section_id(section){
             return 5;
         case "Tools/Weapons/Armour":
             return 6;
+	    case "Snapshot":
+		  return 7;
     }
 }
 
