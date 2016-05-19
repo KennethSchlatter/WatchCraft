@@ -29,6 +29,7 @@
         ""
     ],
     "companyName": "Frosted Torus",
+    "enableMultiJS": false,
     "longName": "WatchCraft",
     "projectType": "native",
     "resources": {
@@ -55,10 +56,11 @@
     "shortName": "WatchCraft",
     "targetPlatforms": [
         "aplite",
-        "basalt"
+        "basalt",
+        "chalk"
     ],
     "uuid": "3f6164ab-d82c-406e-a251-72b23a798265",
-    "versionLabel": "1.6",
+    "versionLabel": "1.35",
     "watchapp": {
         "watchface": false
     }
